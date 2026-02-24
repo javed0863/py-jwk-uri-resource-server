@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    {
+      "taskId": "1",
+      "description": "Update requirements.txt with python-jose[cryptography] and httpx dependencies",
+      "status": "completed"
+    },
+    {
+      "taskId": "2",
+      "description": "Create config.py for loading JWKS_URI environment variable",
+      "status": "completed"
+    },
+    {
+      "taskId": "3",
+      "description": "Create security.py with JWKS fetching and JWT validation logic",
+      "status": "completed"
+    },
+    {
+      "taskId": "4",
+      "description": "Create dependencies.py with FastAPI dependency for token extraction and validation",
+      "status": "completed"
+    },
+    {
+      "taskId": "5",
+      "description": "Update main.py to add public and protected endpoints",
+      "status": "completed"
+    },
+    {
+      "taskId": "6",
+      "description": "Create .env.example file with JWKS_URI configuration template",
+      "status": "completed"
+    },
+    {
+      "taskId": "7",
+      "description": "Test public endpoint / returns 200 without auth",
+      "status": "completed"
+    },
+    {
+      "taskId": "8",
+      "description": "Test protected endpoint /protected returns 401 without token",
+      "status": "completed"
+    },
+    {
+      "taskId": "9",
+      "description": "Test protected endpoint /protected returns 200 with valid token",
+      "status": "completed"
+    }
+  ]
+}
