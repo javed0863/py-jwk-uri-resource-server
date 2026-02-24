@@ -32,17 +32,32 @@
     },
     {
       "taskId": "7",
-      "description": "Test public endpoint / returns 200 without auth",
+      "description": "Create .env file with real JWKS URI for testing",
       "status": "completed"
     },
     {
       "taskId": "8",
-      "description": "Test protected endpoint /protected returns 401 without token",
+      "description": "Test public endpoint / returns 200 without auth",
       "status": "completed"
     },
     {
       "taskId": "9",
+      "description": "Test protected endpoint /protected returns 401 without token",
+      "status": "completed"
+    },
+    {
+      "taskId": "10",
       "description": "Test protected endpoint /protected returns 200 with valid token",
+      "status": "completed"
+    },
+    {
+      "taskId": "11",
+      "description": "Verify JWKS caching functionality (4-hour cache expiry)",
+      "status": "completed"
+    },
+    {
+      "taskId": "12",
+      "description": "Verify error handling for invalid tokens",
       "status": "completed"
     }
   ]
